@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: 300vh;
+}
+section{
+	padding: 0 100px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background: url(cricketground.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex-direction: row-reverse;
+}
+.box{
+	position: relative;
+	max-width: 600px;
+	padding: 50px;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.box h2{
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: red;
+}
+.box p{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: black;
+}
+.box1{
+	position: relative;
+	max-width: 600px;
+	height: 300px;
+	padding: 50px;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 5px 15px rgba(0,0,0,.7);
+	align-items: right;
+}
+.box1 h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 0 0 20px;
+	color: red;
+}
+.box1 p{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: black;
+}
+.box1 imgBx{
+	width: 150px;
+	height: 100px;
+}
+.box2{
+	position: relative;
+	max-width: 600px;
+	height: 320px;
+	padding: 50px;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 5px 15px rgba(0,0,0,.7);
+	align-items: right;
+}
+.box2 h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+	color: red;
+}
+.box2 p{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: black;
+}
+.box2 imgBx{
+	width: 150px;
+	height: 100px;
+}
+.box3{
+	position: relative;
+	max-width: 600px;
+	height: 300px;
+	padding: 50px;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 5px 15px rgba(0,0,0,.7);
+	align-items: right;
+}
+.box3 h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 0 0 20px;
+	color: red;
+}
+.box3 p{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: black;
+}
+.box3 imgBx{
+	width: 150px;
+	height: 100px;
+}
