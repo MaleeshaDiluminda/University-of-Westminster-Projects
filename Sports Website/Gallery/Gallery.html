@@ -1,0 +1,198 @@
+﻿<!-- Student 4 - Dulana Ratnayake -->
+<!-- This is Gallery  -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Gallant Glory | Gallery</title>
+		
+		<link rel="stylesheet" type="text/css" href="../Main_Page/Mainpage.css">			<!-- Navigation bar CSS file -->
+		<link rel="stylesheet" type="text/css" href="GalleryCSS.css">		<!-- Gallery CSS file -->
+		<link rel="stylesheet" type="text/css" href="../Main_page/top.css">
+
+        <script>															<!-- JavaScript -->
+            function change_bgcolor(bgcolor)								<!-- JavaScript for Change Background color -->
+            {
+                var val1 = bgcolor.options[bgcolor.selectedIndex].value;
+                document.body.style.background=val1;
+            }
+			
+			function change_textcolor(textcolor)							<!-- JavaScript for Change Text color -->
+            {
+                var val2 = textcolor.options[textcolor.selectedIndex].value;
+                document.body.style.color=val2;
+            }
+        </script>
+    </head>
+
+    <body>
+		<div class="menu">
+                                     
+             <div class="rightmenu">
+                 <ul>
+                     <li><a href="../Cart/CricketCart/cricketcart.html"> CRICKET</a></li>
+                     <li><a href="../Cart/BasketballCart/basketballcart.html">  BASKETBALL</a></li>
+                     <li><a href="../Cart/BaseballCart/baseballcart.html">  BASEBALL</a></li>             
+                     <li><a href="../Cart/FootballCart/footballcart.html">  FOOTBALL </a></li>
+                     <li><a href="../Cart/RugbyCart/rugbycart.html">  RUGBY </a></li>
+                     <li><a href="../Cart/VolleyballCart/volleyballcart.html">  VOLLEYBALL </a></li>
+                 </ul>
+			 </div>
+			<div class="leftmenu">
+                   <!--  GALLENT GLORY logo -->
+				<a href="../Main_Page/Mainpage.html" target="_self">
+					<img class="logo" src="../Main_Page/png.png" alt="logo">
+                </a>       
+            </div>      
+        </div>
+        <br>
+        <select name="bgcolor" onchange="change_bgcolor(this)">						<!-- Dropdown for Change Background color -->
+			<option>Select Background Colour</option>
+            <option value="#E57373">RED</option>
+            <option value="#81D4FA">BLUE</option>
+            <option value="#FFF9C4">YELLOW</option>
+            <option value="#FFB74D">ORANGE</option>
+            <option value="#9E9E9E">GRAY</option>
+        </select>
+		<select name="textcolor" onchange="change_textcolor(this)">					<!-- Dropdown for Change Text color -->
+            <option>Select Text Colour</option>
+			<option value="#D50000">RED</option>
+            <option value="#1A237E">BLUE</option>
+            <option value="#FBC02D">YELLOW</option>
+            <option value="#FF5722">ORANGE</option>
+            <option value="#000000">BLACK</option>
+        </select>
+		<br>
+														<!-- Sanga , Mahela image , topic and paragrph content -->
+		<div class="thumbnail">
+			<img src="sanga_maheela.jpg" width="290" height="200">
+			<div class="thumbnail-content-1">
+				<img src="sanga_maheela.jpg" width="600" height="400">
+				<div class="paragraph">
+					<b>On this day in 2006, Sri Lankan batting pair of Mahela Jayawardene set the World record partnership in Test cricket, as their partnership finished on 624 runs.</b><br>
+					In first Test against South Africa in Colombo, the two veterans etched their names in record books when the two compiled a mammoth 624 run for third wicket in first innings.<br>
+					Sri Lanka faced two early blows in the form of Sanath Jayasuriya and Upul Tharanga and were reduced to 14/2.But the introduction of Sangakkara and Jayawardene at the crease totally changed the complexion of the game.<br>
+					Wicket-keeper batsman Sangakkara went on to score 287 runs while skipper Mahela smashed 374 during the course.
+				</div>
+				<div class="thumbnail-topic-1">
+					<h1>Mahela Jayawardene, Kumar Sangakkara <br> share record stand</h1>
+				</div>
+			</div>
+			
+		</div>
+															<!-- Babe Ruth image , topic and paragraph content -->
+		<div class="thumbnail">
+			<img src="babe_ruth.jpg" width="300" height="200">
+			<div class="thumbnail-content-2">
+				<img src="babe_ruth.jpg" width="600" height="400">
+				<div class="paragraph">
+					With 54 home runs in 1920 and 59 more in 1921, Ruth captured the attention of a nation.<br>
+					But Ruth’s legend was more than just numbers. He became an oversized symbol of America’s power, a brilliant man with human flaws that made him seem more real than mythic.<br>
+					The new exhibit will feature artifacts that tell both sides of this story, such as a trophy presented to Ruth by his “Baltimore admirers” on May 20, 1922.<br>
+					<b>The garment was snapped up for $5.64m (£4.4m) at auction in New York on June 13, 2019
+					.</b> It broke the previous record of $4.4m which was set in 2012 - also for one of Ruth's New York Yankees jerseys.<br>
+					The shirt dates from the 1928-1930 period of Ruth's long career, in which he became an early sporting superstar.
+				</div>
+			</div>
+			<div class="thumbnail-topic-2">
+				<h1>Babe Ruth jersey fetches record-breaking $5.64m at auction</h1>
+			</div>
+		</div>
+															<!-- Lionel Messi image , topic and paragraph content -->
+		<div class="thumbnail">
+			<img src="lionel_messi.jpg" width="300" height="200">
+			<div class="thumbnail-content-3">
+				<img src="lionel_messi.jpg" width="600" height="400">
+				<div class="paragraph">
+					Argentine and barcelona footballer Lionel Messi, considered by some to be the best footballer of all-time, has received six Ballon d'Or awards, the most for any football player, <br>
+					as well as the 2009 FIFA World Player of the Year and The Best FIFA Men's Player 2019. Widely regarded as one of the greatest players of all time, Messi holds the record for most goals in La Liga (444), <br>
+					the Supercopa de España (14), the UEFA Super Cup (3), as well as the most goals scored in one calendar year (91 in 2012), and the player with the most recorded assists in football history (298).<br>
+					He has scored 703 senior career goals for club and country. He is also the first player in history to win six European Golden Shoes.<br>
+					<b>Lionel Messi reached his 700th career goal with an audacious ‘Panenka’ penalty against Atletico Madrid in La Liga on July 1st, 2020 as Barcelona drew 2-2.</b>
+					</div>
+			</div>
+			<div class="thumbnail-topic-3">
+				<h1>Lionel Messi<br> reaches 700 goals<br> for Barcelona<br> and Argentina</h1>
+			</div>
+		</div>
+															<!-- Kobe Bryant image , topic and paragraph content -->
+		<div class="thumbnail">
+			<img src="kobe_bryant.jpg" width="300" height="200">
+			<div class="thumbnail-content-4">
+				<img src="kobe_bryant.jpg" width="600" height="400">
+				<div class="paragraph">
+					<b>US basketball legend Kobe Bryant has died in a helicopter crash in California,</b> sparking an outpouring of grief from fans around the world.<br>
+					Bryant, 41, and his daughter Gianna, 13, were among the nine killed when the aircraft came down in Calabasas.<br>
+					There were no survivors from Sunday's crash which happened in foggy weather.<br>
+					Bryant, a five-time NBA champion, played for the LA Lakers throughout his career and is considered one of the greatest players in the game's history.
+				</div>
+			</div>
+			<div class="thumbnail-topic-4">
+				<h1>Kobe Bryant: US mourns <br> basketball legend <br>killed in helicopter crash</h1>
+			</div>
+		</div>
+															<!-- Dan Carter image , topic and paragraph content -->
+		<div class="thumbnail">
+			<img src="dan_carter.jpg" width="290" height="200">
+			<div class="thumbnail-content-5">
+				<img src="dan_carter.jpg" width="600" height="400">
+				<div class="paragraph">
+					Carter plays for Blues (Super Rugby) in New Zealand and played for New Zealand's national team, the All Blacks. He is the highest point scorer in test match rugby,<br>
+					and is considered by many experts as the greatest ever first five-eighth (fly-half) in the history of the game. He was named the International Rugby Board Player of the Year in 2005, <br>
+					2012 and 2015 (equaling the record three awards of Richie McCaw) and has won three Super Rugby titles with the Crusaders, and nine Tri-Nations and Rugby Championships with the All Blacks.<br>
+					<b>After a stellar career for the Crusaders, Dan Carter is set to make his Super Rugby return against his former side on Saturday</b><br>
+					Carter injured his groin while doing kicking practice during the 2011 Rugby World Cup but was a key member of the 2015 Rugby World Cup-winning teams, becoming one of 20 players to have won multiple Rugby World Cups.<br>
+					In the 2015 Rugby World Cup Final against Australia, he kicked four penalties, two conversions and a drop goal, and was named the man of the match
+				</div>
+			</div>
+			<div class="thumbnail-topic-5">
+				<h1>Dan Carter returns to Super Rugby, <br>and the Crusaders, for the Blues</h1>
+			</div>
+		</div>
+		
+		<!------------------------------------ DOWN MENU BAR ------------------------------------->        
+        <div class="menuUnder">
+            <div class="rightmenu">
+                <ul>
+                    <li><a href="../Sitemap/sitemap.html"> SITE MAP </a></li>
+                    <li><a href="../Feedback/valid.html"> FEEDBACK </a></li>
+                    <li><a href="../Meet_the_team/meettheteam.html"> MEET THE TEAM </a> </li>
+                    <li><a href="../AboutUS/aboutus.html"> ABOUT US </a> </li>
+                    <li><a href="../Editor/editor_dulana.html"> EDITOR </a> </li>                                    
+                </ul>
+			</div>
+			<div class="leftmenu">
+		<!--------------------  GALLENT GLORY logo & Linked Mainpage ----------------------->
+                <a href="../Main_Page/Mainpage.html" target="_self">
+					<img class="logo" src="../Main_Page/png.png" alt="logo">
+                </a>         <!--  GALLENT GLORY logo -->
+            </div>
+        </div>
+		
+		<!----------------------  Scroll button Part  ------------------------>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">BACK TO TOP</button>
+
+	<!----------------------  Scroll button java script PART  ------------------------>
+		<script>
+
+			var mybutton = document.getElementById("myBtn");
+
+
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+				mybutton.style.display = "block";
+			  } else {
+				mybutton.style.display = "none";
+			  }
+			}
+
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;      
+			}
+			
+		</script>
+    </body>
+</html>

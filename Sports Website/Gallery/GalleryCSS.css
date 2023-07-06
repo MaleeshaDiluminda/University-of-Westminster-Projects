@@ -1,0 +1,179 @@
+﻿/* Student 4 - Dulana Ratnayake */
+/* This is CSS file of Gallery */
+
+select{								/*CSS for Dropdown*/
+	width: 15%;
+	height: 30px;
+	padding: 5px;
+	border: none;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+}
+
+.menuUnder{
+	position: absolute;
+	bottom: -60%;
+	width: 100%;
+}
+		
+.thumbnail {						/*CSS for Thumbnail image*/
+	display: inline-block;
+	position: relative;
+			  
+}
+
+		/*CSS for 1st thumbnail image and content*/
+
+.thumbnail-content-1 {				
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 600px;
+	height: auto;
+	font-family: "Montserrat", sans-serif;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	left: 0%;
+}
+.thumbnail-topic-1{
+	display: none;
+	position: absolute;
+	min-width: 600px;
+	top: 10%;
+	left: 120%;
+	font-family: "Times New Roman", serif;
+	font-size: 30px;
+}
+.thumbnail:hover .thumbnail-content-1 {
+	display: block;
+}
+.thumbnail:hover .thumbnail-topic-1 {
+	display: block;
+}
+			
+		/*CSS for 2nd thumbnail image and content*/	
+	
+.thumbnail-content-2 {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 600px;
+	height: auto;
+	font-family: "Montserrat", sans-serif;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	left: -15%;
+}
+.thumbnail-topic-2{
+	display: none;
+	position: absolute;
+	min-width: 600px;
+	top: 130%;
+	left: 200%;
+	font-family: "Times New Roman", serif;
+	font-size: 30px;
+}
+.thumbnail:hover .thumbnail-content-2 {
+	display: block;
+}
+.thumbnail:hover .thumbnail-topic-2 {
+	display: block;
+}
+			
+		/*CSS for 3rd thumbnail image and content*/
+			
+.thumbnail-content-3 {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 600px;
+	height: auto;
+	font-family: "Montserrat", sans-serif;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	left: -50%;
+}
+.thumbnail-topic-3{
+	display: none;
+	position: absolute;
+	min-width: 600px;
+	top: 130%;
+	left: 155%;
+	font-family: "Times New Roman", serif;
+	font-size: 30px;
+}
+.thumbnail:hover .thumbnail-content-3 {
+	display: block;
+}
+.thumbnail:hover .thumbnail-topic-3 {
+	display: block;
+}
+			
+		/*CSS for 4th thumbnail image and content*/
+			
+.thumbnail-content-4 {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 600px;
+	height: auto;
+	font-family: "Montserrat", sans-serif;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	right: -15%;
+}
+.thumbnail-topic-4{
+	display: none;
+	position: absolute;
+	min-width: 600px;
+	top: 140%;
+	left: -290%;
+	font-family: "Times New Roman", serif;
+	font-size: 28px;
+}
+.thumbnail:hover .thumbnail-content-4 {
+	display: block;
+}
+.thumbnail:hover .thumbnail-topic-4 {
+	display: block;
+}
+			
+		/*CSS for 5th thumbnail image*/
+	
+.thumbnail-content-5{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 600px;
+	height: auto;
+	font-family: "Montserrat", sans-serif;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	right: 0%;
+}
+.thumbnail-topic-5{
+	display: none;
+	position: absolute;
+	min-width: 600px;
+	top: 170%;
+	left: -410%;
+	font-family: "Times New Roman", serif;
+	font-size: 28px;
+}
+.thumbnail:hover .thumbnail-content-5 {
+	display: block;
+}
+.thumbnail:hover .thumbnail-topic-5 {
+	display: block;
+}
+
+
+b{
+	color: #ff0000;
+}
+			
+.paragraph {
+	padding: 15px;
+	text-align: justify;
+}
+

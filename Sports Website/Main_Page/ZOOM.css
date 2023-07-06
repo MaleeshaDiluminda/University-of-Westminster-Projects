@@ -1,0 +1,71 @@
+
+/* Image zoom hover effects part */
+
+body{
+	margin: 0;
+	padding: 0;
+	background: 263626;
+	font-family: sans-serif;
+}
+.container{
+	width: 1100px;
+	margin: 70px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 75px;
+	padding-top: 1px;
+
+}
+.container .box{
+	position: relative;
+	width: 300px;
+	height: 200px;
+	background: transparent;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.container .box .imgBox{
+	position: relative;
+	padding-left: 20px;
+}
+.container .box .imgBox img{
+	max-width: 100%;
+	transition: transform 2s;
+
+}
+.container .box:hover .imgBox img{
+	transform: scale(1.18);
+}
+.container .box .details{
+	position: absolute;
+	bottom: 10px;
+	color: white;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: transparent;
+	transform: scale(0);
+	transition: transform 0.5s;
+}
+.container .box:hover .details{
+    transform: scaleY(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

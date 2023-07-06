@@ -1,0 +1,183 @@
+
+ /* MENU bar(cricket,basketball,baseball,football,rugby,volleyball,cart) 
+ Lionel messi cover page photo / ABOUT US / FEEDBACK / CONTACT / GALLENT GLORIA logo */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+a{
+	color: white;
+}
+
+.bgimage{
+	background-image: url('messi.jpg');
+	background-size:cover;                       /* bgimage = backgroud image = lionel messi photo */
+	width: 100%;
+	height: 100%; 
+}
+
+.menu {
+	width: 100%;
+	height: 10%;                                 
+	background-color: rgba(255,255,255,0);            /* Menu color bar */
+	
+}
+
+.leftmenu {
+	width: 25%;
+	height: 100px;
+	line-height: 10px;                       /*  GALLENT GLORY logo */
+	float: left;
+	background-color: black;
+}
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;                                 /* Quote - BRANDED.DURABLE  */
+	font-size: 22px;
+	font-family: "Montserrat", sans-serif;
+	
+} 
+
+.rightmenu {
+	width: 75%;
+	height: 100px;                                    /* Main menu bar */
+	float: right;
+	background-color: black;
+	
+}
+
+.rightmenu ul {
+	margin-left:200px;
+	margin-right: ; 
+	
+
+
+}
+.rightmenu ul li {
+	font-family: "Montserrat", sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+	
+}
+.rightmenu ul li a:hover{         /*   highlight yellow - (Menu bar)Navigation links to price lists */
+	color: orange;
+}
+
+
+#firstlist {
+	color: orange;               /* High light(Yellow) color in navigation bar */
+	
+}
+.rightmenu ul li:hover {
+	color: orange;
+	
+}
+.text {
+	width: 100%;
+	margin-right: 185px;
+	text-transform: uppercase;              /* ABOUT US ,FEEDBACK , CONTACT buttons and quotes */
+	text-align:center;
+	color: white;
+	text-decoration: none;
+}
+.text h4 {
+	font-weight: 14px;
+	font-family: "Montserrat", sans-serif;     /* h4 = BRANDED.DURABLE */
+	padding: 500px;
+	padding-bottom: 1px;
+
+}
+.text h1 {
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;   /* h1 = LARGEST SPORTS EQUIPMENTS DEALER IN SRI LANKA */
+	font-weight: 700px;
+	margin: 0px 0px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+.text input[type="text"]{
+    width: 30%;
+    padding: 0.8%;
+    box-sizing: border-box;             /* ABOUT US ,FEEDBACK , CONTACT buttons and quotes */
+    background: rgba(0,0,0,0.3);
+    border: 1px solid #fff;
+    border-radius: ;
+    font-size: 15px;
+}
+
+#buttonone {
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;                     /* buttonone =  ABOUT US button */
+	font-weight: bold;
+	line-height: 40px;
+	width: 150px;
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+}
+#buttontwo {
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;           /* buttontwo = FEEDBACK button */
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	width: 150px;
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+
+}
+#buttonthree {
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;                     /* buttonthree = CONTACT button */
+	font-weight: bold;
+	line-height: 40px;
+	width: 150px;
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+	overflow-x: hidden;
+}
+.logo {
+	cursor: pointer;
+	width: 250px;                        /* GALLANT GLORIA logo */
+	max-height: 300;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	overflow-x: hidden;
+
+}
+@media screen and (max-width: 425px){
+	.text input[type="text"]{
+    width: 30%;
+    padding: 0.8%;                          /* LARGEST SPORTS EQUIPMENTS DEALER IN SRI LANKA */
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid #fff;
+    border-radius: ;
+    font-size: 15px;
+    overflow-x: hidden;
+    position: relative;
+}
+

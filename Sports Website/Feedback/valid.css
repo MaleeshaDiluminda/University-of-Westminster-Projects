@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+  
+}
+
+body{
+  background: white;
+}
+
+.menu{
+	position: absolute;
+	top: 0%;
+	
+}
+
+.menu_Under{
+	position: absolute;
+	bottom: -30%;
+	width: 100%;
+}
+
+.feedback{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;    /* feed back box background colour */
+  padding: 25px;
+  border-radius: 5px;
+  
+}
+
+.feedback h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #332902;             /* Contact us font */
+}
+
+.feedback .textfield{
+  margin-bottom: 10px;
+}
+
+.feedback .textfield input[type="text"],
+.feedback textarea{
+  border: 1px solid #34ebab;
+  width: 100%;
+  padding: 10px;
+}
+
+.feedback textarea{
+  resize: none;
+  height: 80px;
+}
+
+.feedback .button input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #34ebab; /* submit button color */
+  color: #332902;      /* Submit font color */
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#errormessage{
+  margin-bottom: 2px;
+  background: #fe8b8e;
+  padding: 0px;                   /* Error Message */
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+} 
+
+
+*{
+  
+  box-sizing: border-box;     /* RATING */
+}
+
+
+html,body{
+  --place-items: center;
+  text-align: center;
+  background: #34ebab;   /* cyan background */
+  padding-top: 250px;
+}
+
+.radiob {
+    --primary: black;
+    --other: black;
+
+}
+.radiob h1 {
+    color: black;
+    font-size: 30px;
+    padding: 20px 10px;
+    border-bottom: 2px solid;
+}
+.radiob label {
+    display: flex;
+    
+    align-items: center;
+    
+  
+    margin: 12px 0;
+  
+    cursor: pointer;
+    position: relative;
+}
+.radiob input {
+    
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.radiob .design {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-right: 16px;
+  
+    position: relative;
+}
+.radiob .design::before,
+.radiob .design::after {
+  content: "";
+  display: block;
+
+  width: inherit;
+  height: inherit;
+
+  border-radius: inherit;
+
+  position: absolute;
+  transform: scale(0);
+  transform-origin: center center;
+}
+
+.radiob .design:before {
+  background: var(--other);
+  opacity: 0;
+  transition: .3s;
+}
+
+.radiob .design::after {
+  background: var(--primary);
+  opacity: .4;
+  transition: .6s;
+}
+
+
+/* .text */
+.radiob .text {
+  color: black;
+  font-weight: bolder;
+}
+.radiob input:checked+.design::before {
+    opacity: 2;
+    transform: scale(.9);
+}
+.radiob input:hover+.design,
+.radiob input:focus+.design {
+  border: 1px solid var(--primary);
+}
+
+.radiob input:hover+.design:before,
+.radiob input:focus+.design:before {
+  background: var(--primary);
+}
+
+.radiob input:hover~.text {
+  color: var(--primary);
+}
+
+.radiob input:focus+.design::after,
+.radiob input:active+.design::after {
+  opacity: .1;
+  transform: scale(2.6);
+
+
+
+
+
+
+
+
